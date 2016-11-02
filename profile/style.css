@@ -1,0 +1,114 @@
+body {
+  background: #EEEEEE;
+  font-family: Open Sans;
+  color: rgb(30,30,30);
+  font-size: 16px
+}
+
+container {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #DD5555;
+  font-size: 25px;
+  padding: none;
+}
+
+.img_circle {
+  border-radius: 50%
+}
+
+#main_picture {
+  height: 200px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #3A4750;
+}
+
+h3 {
+  color: #3A4750;
+}
+
+p {
+  color: #808080;
+}
+
+a {
+  color: #B3B3B3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D72323;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px
+}
+
+footer {
+  background-color: rgb(30,30,30);
+  color: rgb(200,200,200);
+  margin: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #CCCCCC;
+}
+
+footer h3 {
+  color: rgb(200,200,200);
+}
+
+.card {
+  background-color: #FAFAFA;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.horizontal_list {
+  display: inline-flex;
+  text-align: center
+}
+
+.social_media_icon {
+  margin: 20px;
+}
+
+.sport_picture {
+  width: 100%;
+  height: auto;
+}
+
+.horizontal_list_element {
+  margin: 10px 10px 10px 10px;
+
+}
+
+.share {
+  background-color: rgb(30,30,30)
+  text-align: left
+}
+
+footer > div {
+  text-align: left;
+  background-color: rgb(30,30,30) ;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.sport_description {
+    box-shadow: none;
+}
