@@ -7,7 +7,7 @@ body {
 
 container {
   width: 500px;
-  margin: 0 auto;
+  margin: 0px auto;
   margin-bottom: 20px;
 }
 
@@ -55,7 +55,7 @@ ul {
 footer {
   background-color: rgb(30,30,30);
   color: rgb(200,200,200);
-  margin: 10px;
+  margin: 10px 200px;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
@@ -70,7 +70,7 @@ footer h3 {
   background-color: #FAFAFA;
   text-align: center;
   padding: 20px;
-  margin: 10px;
+  margin: 10px 200px ;
   border-radius: 4px;
   box-shadow: 2px 2px 2px #CCCCCC;
 }
@@ -111,4 +111,8 @@ footer > div {
 
 .sport_description {
     box-shadow: none;
+}
+
+.social_media {
+  font-size: 30px;
 }
