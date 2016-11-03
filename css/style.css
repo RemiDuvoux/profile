@@ -1,0 +1,78 @@
+@import url("components/avatar.css");
+@import url("components/tabs.css");
+@import url("components/profile_header.css");
+@import url("components/list.css");
+@import url("components/product.css");
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+  margin: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.list-inline li {
+  display: inline-block;
+  color: #B3B3B3;
+}
+
+.list-inline li:hover {
+  color: #C30001;
+}
+
+.list-inline {
+  list-style: none;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #B3B3B3;
+}
+
+.profile-header-infos h1 {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.profile-header-wrapper {
+   background: #131640;
+}
+
+p {
+  font-weight: lighter;
+  color : #B3B3B3;
+}
+
+

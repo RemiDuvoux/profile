@@ -1,27 +1,21 @@
-body {
-  font-family: Open Sans;
-  color: rgb(30,30,30);
-  font-size: 16px
-}
-
 container {
   width: 500px;
   margin: 0px auto;
   margin-bottom: 20px;
 }
 
+body {
+  font-family: Open Sans;
+  color: rgb(30,30,30);
+  font-size: 16px;
+  background-color: #E6E6E6;
+}
+
+
 h1 {
   color: #DD5555;
   font-size: 25px;
   padding: none;
-}
-
-.img_circle {
-  border-radius: 50%
-}
-
-#main_picture {
-  height: 200px;
 }
 
 h2 {
@@ -46,30 +40,47 @@ a:hover {
   color: #D72323;
 }
 
+.footer {
+  background-color: rgb(30,30,30);
+  color: rgb(200,200,200);
+  margin: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #CCCCCC;
+  width: 100%;
+  clear: both;
+}
+
+.footer h3 {
+  color: rgb(200,200,200);
+}
+
+.footer > div {
+  text-align: left;
+  background-color: rgb(30,30,30) ;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
 ul {
   list-style: none;
   padding-left: 0px
 }
 
-footer {
-  background-color: rgb(30,30,30);
-  color: rgb(200,200,200);
-  margin: 10px 200px;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  box-shadow: 2px 2px 2px #CCCCCC;
-}
-
-footer h3 {
-  color: rgb(200,200,200);
+.img_circle {
+  border-radius: 50%
 }
 
 .card {
   background-color: #FAFAFA;
   text-align: center;
   padding: 20px;
-  margin: 10px 200px ;
+  margin: 10px 80px ;
   border-radius: 4px;
   box-shadow: 2px 2px 2px #CCCCCC;
 }
@@ -98,16 +109,6 @@ footer h3 {
   text-align: left
 }
 
-footer > div {
-  text-align: left;
-  background-color: rgb(30,30,30) ;
-  text-align: center;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 4px;
-  box-shadow: none;
-}
-
 .sport_description {
     box-shadow: none;
 }
@@ -118,4 +119,27 @@ footer > div {
 
 .sport_picture {
   border-radius: 5px
+}
+
+#main_picture {
+  height: 200px;
+}
+
+
+#sidebar {
+  background-color: #666666;
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height:100%;
+  float:left;
+}
+#page-content {
+  margin-left: 300px;
+}
+
+.inline {
+  padding: 20%;
 }
