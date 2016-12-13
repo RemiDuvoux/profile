@@ -1,85 +1,68 @@
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Product page</title>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-
-   <div class="profile-header-wrapper">
+<head>
+  <meta charset="utf-8">
+  <title>Product page</title>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper" style="background-image: linear-gradient(to left, #43C6AC , #191654), url('28H.jpeg'); background-color: #cccccc;">
+    <div class="name-box">
+      <div class="cadre"></div>
+      <p class="first-name name-element">Remi</p>
+      <p class="last-name name-element">Duvoux</p>
+    </div>
+    <div class="description">
+      <p>Full-stack developer - Entrepreneur<div class="description-overlay"></div></p></div>
+      <a href="#wrapper-2" class="see-more">
+        <svg id="arrow" width="40px" height="14px" viewBox="24 29 24 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><polyline id="Path-72-Copy" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="26 31 36 41 46 31"></polyline></svg>
+        <p>My projects</p>
+      </a>
+      <div id= "moving_element" class="background-element-left"></div>
+      <div class="background-element-left-2"></div>
+      <div class="background-element-right"></div>
+      <div class="background-element-right-2"></div>
+    </div>
+    <div id="wrapper-2" class="text-center" style="position: relative">
+      <h1>My projects</h1>
       <div class="container">
-        <div class="profile-header-infos">
-          <img src="remi.jpeg" alt="" class="avatar">
-          <h1>RemiDuvoux</h1>
-          <h2>co-founder @duvoux.co</h2>
-        </div>
-        <div class="tabs">
-          <a class="tab active" href="#">
-            <h3>350</h3>
-            <p>Followers</p>
-          </a>
-          <a class="tab" href="#">
-            <h3>456</h3>
-            <p>Following</p>
-          </a>
-          <a class="tab" href="#">
-            <h3>189</h3>
-            <p>Upvoted</p>
-          </a>
-          <a class="tab" href="#">
-            <h3>13</h3>
-            <p>Submitted</p>
-          </a>
+        <div class="row">
+          <div class="col-xs-12 col-md-4 col-md-offset-1">
+            <div class="card-container">
+              <div class="website-screenshot halfway"></div>
+              <h3 class="project-name">Halfway</h3>
+              <p class="project-description">Halfway is a website enabling 2 people from different cities to find the cheapest flights to meet.</p><p> We developped this product in 10 days using several API, Redis cache, Pusher, Heroku, Rails 5, Jquery & more.</p>
+              <ul class="bottom-elements list-inline">
+                <li class="time">2 weeks</li>
+                <li class= "people">4 people</li>
+                <li class="link"><a href="http://www.halfway.ninja/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <a href="#wrapper-2" class="see-more">
+              <svg id="arrow" width="40px" height="14px" viewBox="24 29 24 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><polyline id="Path-72-Copy" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="26 31 36 41 46 31"></polyline></svg>
+              <p style="link">Learn more about me</p>
+            </a>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="card-container">
+              <div class="website-screenshot timepiece"></div>
+              <h3 class="project-name">Timepiece</h3>
+              <p class="project-description">Timepiece is a two-parties marketplace enabling anyone to wear unique and extraordinary watches.</p><p> We developped this product in 5 days using Rails, Bootstrap, AJAX & more </p>
+              <ul class="bottom-elements list-inline">
+                <li class="time">2 weeks</li>
+                <li class= "people">4 people</li>
+                <li class="link"><a href="http://timepiece-wagon.herokuapp.com/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="container">
-
-
-      <div class="product">
-        <div class="upvote-count"><div class="product-arrow"></div>80</div>
-        <div class="product-image"><img src="https://unsplash.it/150/100" alt=""></div>
-        <div class="product-description">
-          <h1>An amazing product
-          </h1>
-          <p>Quand on parle de relaxation, la prédestination des lois du marché tend à cadrer mes frères propres comme pour le lancement de Troposphère V, c’est clair.</p>
-        </div>
-        <ul class="product-icons list-inline">
-          <li><i class="fa fa-heart" aria-hidden="true"></i></li>
-          <li><i class="fa fa-phone"></i></li>
-          <li><i class="fa fa-facebook"></i></li>
-        </ul>
-      </div>
-      <div class="product">
-        <div class="upvote-count"><div class="product-arrow"></div>9</div>
-        <div class="product-image"><img src="https://unsplash.it/150/100" alt=""></div>
-        <div class="product-description">
-          <h1>Another amazing product
-          </h1>
-          <p>Vous avez le système de check-up vers les anti-valeurs, vous avez le curuna, or la compétence des lois du marché tend à porter d'avis sur ce qu'on appelle ce système phénoménal belvédère, je vous en prie.</p>
-        </div>
-        <ul class="product-icons list-inline">
-          <li><i class="fa fa-heart" aria-hidden="true"></i></li>
-          <li><i class="fa fa-phone"></i></li>
-          <li><i class="fa fa-facebook"></i></li>
-        </ul>
-      </div>
-      <div class="product">
-        <div class="upvote-count"><div class="product-arrow"></div>21</div>
-        <div class="product-image"><img src="https://unsplash.it/150/100" alt=""></div>
-        <div class="product-description">
-          <h1>A final product
-          </h1>
-          <p>Quand on prend les triangles rectangles, le savoir à forciori, se résume à booster le panafricanisme autour des dialogues intercommunautaires, Bonne Année.</p>
-        </div>
-        <ul class="product-icons list-inline">
-          <li><i class="fa fa-heart" aria-hidden="true"></i></li>
-          <li><i class="fa fa-phone"></i></li>
-          <li><i class="fa fa-facebook"></i></li>
-        </ul>
-      </div>
-  </body>
+  </div>
+</body>
 </html>

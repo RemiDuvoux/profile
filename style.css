@@ -1,145 +1,148 @@
-container {
-  width: 500px;
-  margin: 0px auto;
-  margin-bottom: 20px;
-}
+@import url("css/components/card.css");
 
 body {
-  font-family: Open Sans;
-  color: rgb(30,30,30);
-  font-size: 16px;
-  background-color: #E6E6E6;
-}
-
-
-h1 {
-  color: #DD5555;
-  font-size: 25px;
-  padding: none;
-}
-
-h2 {
-  font-size: 20px;
-  color: #3A4750;
-}
-
-h3 {
-  color: #3A4750;
-}
-
-p {
-  color: #808080;
+  background-color: #F5F9EE;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 a {
-  color: #B3B3B3;
+  color: #F8DA5B;
   text-decoration: none;
 }
 
-a:hover {
-  color: #D72323;
+a:hover, a:focus {
+  text-decoration: none;
+  color: #F8DA5B;
 }
 
-.footer {
-  background-color: rgb(30,30,30);
-  color: rgb(200,200,200);
-  margin: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  margin-right: 50px;
-  border-radius: 4px;
-  box-shadow: 2px 2px 2px #CCCCCC;
-  width: 100%;
-  clear: both;
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: left bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #FFFFFF;
 }
 
-.footer h3 {
-  color: rgb(200,200,200);
+#wrapper-2 {
+  background: linear-gradient(to left, #43C6AC , #191654);
+  color: #f8da5b;
+  padding-top: 30px;
 }
 
-.footer > div {
-  text-align: left;
-  background-color: rgb(30,30,30) ;
+#wrapper-2 > h1 {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.name-box {
+  font-weight: bolder;
+  height: 327px;
   text-align: center;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 4px;
-  box-shadow: none;
+  justify-content: center;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0px
+.background-element-left {
+      position: absolute;
+    left: -60px;
+    bottom: 142px;
+    width: 400;
+    transform: rotate(-45deg);
+    height: 5px;
+    background-color: #f8da5b;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
 
-.img_circle {
-  border-radius: 50%
+.background-element-right {
+    position: absolute;
+    right: -60px;
+    top: 142px;
+    width: 400;
+    transform: rotate(-45deg);
+    height: 5px;
+    background-color: #f8da5b;
+    animation-duration: 2s;
+  animation-name: slidein;
 }
 
-.card {
-  background-color: #FAFAFA;
-  text-align: center;
-  padding: 20px;
-  margin: 10px 80px ;
-  border-radius: 4px;
-  box-shadow: 2px 2px 2px #CCCCCC;
+.name-element {
+  font-size: 25px;
 }
 
-.horizontal_list {
-  display: inline-flex;
-  text-align: center
+.first-name {
+  margin-top: -158px;
 }
 
-.social_media_icon {
-  margin: 20px;
+.last-name {
 }
 
-.sport_picture {
-  width: 100%;
-  height: auto;
+.body {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.horizontal_list_element {
-  margin: 10px 10px 10px 10px;
-
+.avatar {
+  height: 100px;
+  border-radius: 50%;
 }
 
-.share {
-  background-color: rgb(30,30,30)
-  text-align: left
+.background-element-left-2 {
+  position: absolute;
+  left: -60px;
+  bottom: 140px;
+  width: 335px;
+  transform: rotate(-45deg);
+  height: 5px;
+  background-color: #f8da5b;
+  animation-duration: 1s;
+  animation-name: slidein;
 }
 
-.sport_description {
-    box-shadow: none;
+.background-element-right-2 {
+  position: absolute;
+  right: -60px;
+  top: 140px;
+  width: 335px;
+  transform: rotate(-45deg);
+  height: 5px;
+  background-color: #f8da5b;
+  animation-duration: 2s;
+  animation-name: slidein;
 }
 
-.social_media {
-  font-size: 30px;
+@keyframes slidein {
+  from {
+    transform: rotate(-40deg);;
+  }
 }
 
-.sport_picture {
-  border-radius: 5px
+.description > p {
+  margin: 0;
+  font-weight:bold;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
-#main_picture {
-  height: 200px;
+.cadre {
+   border: 5px solid #F8DA5B;
+    height: 250px;
+    width: 250px;
+    font-weight: bolder;
+    transform: rotate(45deg);
+    animation-duration: 2s;
+  animation-name: slidein;
 }
 
-
-#sidebar {
-  background-color: #666666;
-  position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  height:100%;
-  float:left;
-}
-#page-content {
-  margin-left: 300px;
+#arrow {
+  fill:"#F8DA5B";
 }
 
-.inline {
-  padding: 20%;
+.see-more {
+ text-align:center;
 }
+

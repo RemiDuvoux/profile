@@ -1,0 +1,38 @@
+/* <div class="card-container">
+              <div class="website-screenshot"></div>
+              <h3 class="project-name">Halfway</h3>
+              <p class="project-description">Halfway is a website enabling 2 people from different cities to find the cheapest flights to meet.</p>
+              <ul class="bottom-elements list-inline">
+                <li class="time">2 weeks</li>
+                <li class= "people">4 people</li>
+                <li class="link">halfway.ninja</li>
+              </ul>
+*/
+.card-container {
+  background-color: rgba(26, 25, 85, 1);
+  height: 500px;
+  text-align:center;
+  color: #FFFFFF;
+  margin-bottom: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 3px 0px rgba(97,97,97,0.3);
+}
+
+.website-screenshot {
+  background-size: cover !important;
+  height: 200px;
+  width: 400px;
+  margin-left: -30px;
+  border-radius: 5px;
+      margin-top: 20px;
+  /*box-shadow: 1px 3px 3px 0px rgba(97,97,97,0.3);*/
+}
+
+.halfway {
+  background-image: url('../../halfway.png');
+}
+
+.timepiece {
+  background-image: url('../../Timepiece.png');
+}
