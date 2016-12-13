@@ -13,7 +13,6 @@
   height: 500px;
   text-align:center;
   color: #FFFFFF;
-  margin-bottom: 100px;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 1px 3px 3px 0px rgba(97,97,97,0.3);
@@ -25,7 +24,7 @@
   width: 400px;
   margin-left: -30px;
   border-radius: 5px;
-      margin-top: 20px;
+  margin-top: 20px;
   /*box-shadow: 1px 3px 3px 0px rgba(97,97,97,0.3);*/
 }
 
@@ -35,4 +34,8 @@
 
 .timepiece {
   background-image: url('../../Timepiece.png');
+}
+
+.project-name {
+  margin-top: 50px;
 }
