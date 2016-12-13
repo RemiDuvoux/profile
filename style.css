@@ -1,4 +1,5 @@
 @import url("css/components/card.css");
+@import url("css/components/gauge.css");
 
 body {
   background-color: #F5F9EE;
@@ -127,6 +128,7 @@ a:hover, a:focus {
   font-weight:bold;
   font-size: 20px;
   margin-top: 20px;
+
 }
 
 .cadre {
