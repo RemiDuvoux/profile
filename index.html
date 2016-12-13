@@ -4,9 +4,29 @@
   <title>Product page</title>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+    <script>
+    $(document).ready(function(){
+      $('.see-more').on('click', function() {
+        var page = $(this).attr('href');
+        var speed = 750;
+        $('html, body').animate({scrollTop: $(page).offset().top}, speed );
+        return false ;
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('.see-more-2').on('click', function() {
+        var page = $(this).attr('href');
+        var speed = 750;
+        $('html, body').animate({scrollTop: $(page).offset().top}, speed );
+        return false ;
+      });
+    });
+  </script>
 </head>
 <body>
   <div class="wrapper" style="background-image: linear-gradient(to left, #43C6AC , #191654), url('28H.jpeg'); background-color: #cccccc;">
@@ -16,7 +36,7 @@
       <p class="last-name name-element">DUVOUX</p>
     </div>
     <div class="description">
-      <p>Full-stack developer - Entrepreneur<div class="description-overlay"></div></p></div>
+      <p>Full-stack developer  ＆  Entrepreneur<div class="description-overlay"></div></p></div>
       <a href="#wrapper-2" class="see-more">
         <svg id="arrow" width="40px" height="14px" viewBox="24 29 24 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><polyline id="Path-72-Copy" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="26 31 36 41 46 31"></polyline></svg>
         <p>My projects</p>
@@ -45,12 +65,10 @@
           </div>
           <div class="col-md-2">
             <div class="block">
-              <div class="see-more">
-                <a href="#wrapper-3">
+                <a href="#wrapper-3" class= "see-more">
                   <svg id="arrow" width="40px" height="14px" viewBox="24 29 24 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><polyline id="Path-72-Copy" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="26 31 36 41 46 31"></polyline></svg>
                   <p style="link">Learn more about me</p>
                 </a>
-              </div>
             </div>
           </div>
           <div class="col-xs-12 col-md-4">
@@ -76,7 +94,8 @@
         <div class="col-xs-4">
           <h2>Education & Experiences 🤓</h2>
           <p>I'm currently a gap-year student at HEC Paris.</p>
-          <p>I worked at Rocket Internet in Morocco as a Category Manager and at a VC firm called Hardware Club. I couldn't bear not being able to code, so I jumped into the Full Stack Programme @ Le Wagon. One of the best experiences of my life.</p>
+          <p>After 2 years in a business school, I worked in a a Rocket Internet venture, Jumia Morocco, as a Category Manager. After 8 months, I joined the Hardware Club, a VC firm based in Paris, focused on IoT and connected devices.</p>
+          <p>I couldn't bear not being able to code, so I jumped into the Full Stack Program @ Le Wagon. One of the best experiences of my life.</p>
         </div>
         <div class="col-xs-4">
           <h2>What I do 💪</h2>
@@ -125,3 +144,4 @@
   </html>
 
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
