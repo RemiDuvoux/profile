@@ -1,13 +1,16 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Product page</title>
+  <title>Remi Duvoux - Freelance Developer</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link rel='shortcut icon' href='Ruby_logo.png' type='image/x-icon'/ >
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,600,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-    <script>
+  <script>
     $(document).ready(function(){
       $('.see-more').on('click', function() {
         var page = $(this).attr('href');
@@ -19,7 +22,7 @@
   </script>
 </head>
 <body>
-  <div class="wrapper" style="background-image: linear-gradient(to left, #43C6AC , #191654), url('28H.jpeg'); background-color: #cccccc;">
+  <div class="wrapper">
     <div class="name-box">
       <div class="cadre"></div>
       <p class="first-name name-element">REMI</p>
@@ -53,85 +56,86 @@
               </a>
             </div>
           </div>
-          <div class="col-md-2">
-            <div class="block">
-                <a href="#wrapper-3" class= "see-more">
-                  <svg id="arrow" width="40px" height="14px" viewBox="24 29 24 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><polyline id="Path-72-Copy" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="26 31 36 41 46 31"></polyline></svg>
-                  <p style="link">Learn more about me</p>
-                </a>
-            </div>
-          </div>
-          <div class="col-xs-12 col-md-4">
+          <div class="col-xs-12 col-md-4 col-md-offset-2 ">
             <div class="card-container">
               <a href="http://timepiece-wagon.herokuapp.com/" target="_blank">
                 <div class="website-screenshot timepiece"></div>
                 <h3 class="project-name">Timepiece</h3>
                 <p class="project-description">Timepiece is a two-parties marketplace enabling anyone to wear unique and extraordinary watches.</p><p> We developped this product in 5 days using Rails, Bootstrap, AJAX & more </p>
                 <ul class="bottom-elements list-inline">
-                  <li class="time">2 weeks</li>
+                  <li class="time">5 days</li>
                   <li class= "people">4 people</li>
                 </ul>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#wrapper-3" class= "see-more see-more-2">
+        <svg id="arrow" width="40px" height="14px" viewBox="24 29 24 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs><polyline id="Path-72-Copy" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" points="26 31 36 41 46 31"></polyline></svg>
+        <p style="link">Learn more about me</p>
+      </a>
+    </div>
+    <div id="wrapper-3" class="wrapper text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <div class="content-box">
+              <h1>Education & Experience 🤓</h1>
+              <p>I'm currently a gap-year student at HEC Paris.</p>
+              <p>After 2 years in a business school, I worked in a Rocket Internet venture, Jumia Morocco, as a Category Manager. After 8 months, I joined the Hardware Club, a VC firm based in Paris, focused on IoT and connected devices.</p>
+              <p>I couldn't bear not being able to code, so I jumped into the Full Stack Program @ Le Wagon. One of the best experiences of my life.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <h1>What I do 💪</h1>
+            <div class="gauge-box content-box">
+              <p class="gauge-title">Ruby on Rails</p>
+              <div class="gauge ">
+                <div class="gauge-fill ruby">
+                </div>
               </div>
-            </a>
+              <p class="gauge-title">Javascript</p>
+              <div class="gauge ">
+                <div class="gauge-fill js">
+                </div>
+              </div>
+              <p class="gauge-title">Product management</p>
+              <div class="gauge ">
+                <div class="gauge-fill pm">
+                </div>
+              </div>
+              <p class="gauge-title">Design</p>
+              <div class="gauge ">
+                <div class="gauge-fill design">
+                </div>
+              </div>
+              <p class="gauge-title">HTML & SCSS</p>
+              <div class="gauge ">
+                <div class="gauge-fill html">
+                </div>
+              </div><p class="gauge-title">Responsive Design</p>
+              <div class="gauge ">
+                <div class="gauge-fill responsive">
+                </div>
+              </div><p class="gauge-title">Experience with diverse APIs</p>
+              <div class="gauge ">
+                <div class="gauge-fill api">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="content-box">
+              <h1>My latest news 😉</h1><a class="twitter-timeline" data-lang="en" data-width="300" data-height="400" data-theme="light" data-link-color="#F8DA5B" href="https://twitter.com/r_duvoux">Tweets by r_duvoux</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div id="wrapper-3" class="wrapper text-center" style="background-image: linear-gradient(to left, #43C6AC , #191654), url('28H.jpeg'); background-color: #cccccc;">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-4">
-          <h2>Education & Experiences 🤓</h2>
-          <p>I'm currently a gap-year student at HEC Paris.</p>
-          <p>After 2 years in a business school, I worked in a a Rocket Internet venture, Jumia Morocco, as a Category Manager. After 8 months, I joined the Hardware Club, a VC firm based in Paris, focused on IoT and connected devices.</p>
-          <p>I couldn't bear not being able to code, so I jumped into the Full Stack Program @ Le Wagon. One of the best experiences of my life.</p>
-        </div>
-        <div class="col-xs-4">
-          <h2>What I do 💪</h2>
-          <div class="gauge-box">
-            <p class="gauge-title">Ruby on Rails</p>
-            <div class="gauge ">
-              <div class="gauge-fill ruby">
-              </div>
-            </div>
-            <p class="gauge-title">Javascript</p>
-            <div class="gauge ">
-              <div class="gauge-fill js">
-              </div>
-            </div>
-            <p class="gauge-title">Product management</p>
-            <div class="gauge ">
-              <div class="gauge-fill pm">
-              </div>
-            </div>
-            <p class="gauge-title">Design</p>
-            <div class="gauge ">
-              <div class="gauge-fill design">
-              </div>
-            </div>
-            <p class="gauge-title">HTML & SCSS</p>
-            <div class="gauge ">
-              <div class="gauge-fill html">
-              </div>
-            </div><p class="gauge-title">Responsive Design</p>
-            <div class="gauge ">
-              <div class="gauge-fill responsive">
-              </div>
-            </div><p class="gauge-title">Experience with diverse APIs</p>
-            <div class="gauge ">
-              <div class="gauge-fill api">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-4">
-          <h2>My latest news 😉</h2><a class="twitter-timeline" data-lang="en" data-width="300" data-height="400" data-theme="light" data-link-color="#F8DA5B" href="https://twitter.com/r_duvoux">Tweets by r_duvoux</a></div>
-        </div>
-      </div>
-    </div>
-  </body>
-  </html>
+</body>
+</html>
 
-  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 

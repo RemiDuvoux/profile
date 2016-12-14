@@ -1,12 +1,17 @@
 @import url("css/components/card.css");
 @import url("css/components/gauge.css");
 
-body {
-  background-color: #F5F9EE;
-  font-family: 'Josefin Sans', sans-serif;
-  margin:0px !important;
+html {
+
 }
 
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin:0px !important;
+  background: -webkit-linear-gradient(right, #43C6AC, #191654);
+  background: -o-linear-gradient(right, #43C6AC, #191654);
+  background: linear-gradient(to left, #43C6AC, #191654);
+}
 a {
   color: #F8DA5B;
   text-decoration: none;
@@ -32,13 +37,18 @@ a:hover, a:focus {
 }
 
 #wrapper-2 {
-  background: linear-gradient(to left, #43C6AC , #191654);
   color: #f8da5b;
   padding-top: 30px;
 }
 
-#wrapper-2 > h1 {
+#wrapper-2  h1 {
   margin: 0;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+#wrapper-3 h1 {
+  color: #F8DA5B;
   margin-bottom: 40px;
 }
 
@@ -117,6 +127,21 @@ a:hover, a:focus {
   animation-name: slidein;
 }
 
+@media screen and (max-width: 480px) {
+  .background-element-right-2 {
+  opacity: 0 ;
+  }
+  .background-element-right {
+  opacity: 0 ;
+  }
+  .background-element-left {
+  opacity: 0 ;
+  }
+  .background-element-left-2 {
+  opacity: 0 ;
+  }
+}
+
 @keyframes slidein {
   from {
     transform: rotate(-40deg);;
@@ -156,5 +181,18 @@ a:hover, a:focus {
 .block {
   height: 80%;
   position: relative;
+}
+
+
+@media only screen and (max-width: 480px)  {
+  .content-box {
+    margin-bottom: 40px;
+  }
+  #wrapper-3 {
+    margin-top: 390px;
+  }
+  .see-more-2 {
+    bottom: 0%;
+  }
 }
 

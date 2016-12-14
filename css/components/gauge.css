@@ -5,6 +5,13 @@
   flex-grow: 1;
 }
 
+@media (max-width: 480px) {
+  .gauge-box {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  }
+
 .gauge-box {
   width: 100%;
   display: flex;
