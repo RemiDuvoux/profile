@@ -1,9 +1,6 @@
 @import url("css/components/card.css");
 @import url("css/components/gauge.css");
 
-html {
-
-}
 
 body {
   font-family: 'Josefin Sans', sans-serif;
@@ -12,6 +9,7 @@ body {
   background: -o-linear-gradient(right, #43C6AC, #191654);
   background: linear-gradient(to left, #43C6AC, #191654);
 }
+
 a {
   color: #F8DA5B;
   text-decoration: none;
@@ -71,7 +69,7 @@ a:hover, a:focus {
     animation-name: slidein;
 }
 
-.background-element-right {
+/*.background-element-right {
     position: absolute;
     right: -60px;
     top: 142px;
@@ -81,7 +79,7 @@ a:hover, a:focus {
     background-color: #f8da5b;
     animation-duration: 2s;
   animation-name: slidein;
-}
+}*/
 
 .name-element {
   font-size: 25px;
@@ -115,7 +113,7 @@ a:hover, a:focus {
   animation-name: slidein;
 }
 
-.background-element-right-2 {
+/*.background-element-right-2 {
   position: absolute;
   right: -60px;
   top: 140px;
@@ -126,7 +124,7 @@ a:hover, a:focus {
   animation-duration: 2s;
   animation-name: slidein;
 }
-
+*/
 @media screen and (max-width: 480px) {
   .background-element-right-2 {
   opacity: 0 ;

@@ -10,7 +10,7 @@
 */
 .card-container {
   background-color: rgba(26, 25, 85, 1);
-  height: 500px;
+  height: 460px;
   text-align:center;
   color: #FFFFFF;
   padding: 10px;
@@ -45,5 +45,5 @@
 }
 
 .project-name {
-  margin-top: 50px;
+  margin-top: 25px;
 }
